@@ -1,22 +1,22 @@
 package com.goit.fifthmodule.firstclass;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class ArrayMinMax {
-    public static void main(String[] args) {
-        int[] arrayKsu = {-13, 37, 89, -57, 14, 92, 77};
 
-        int min = arrayKsu[0];
-        for (int i = 0; i < arrayKsu.length; i++) {
-            if (min > arrayKsu[i])
-                min = arrayKsu[i];
-        }
-        System.out.println("Минимальное значение в данном массиве " + min);
+    private int[] arrayKsu;
 
-        int max = arrayKsu[0];
-        for (int i = 0; i < arrayKsu.length; i++) {
-            if (max < arrayKsu[i])
-                max = arrayKsu[i];
-        }
-        System.out.println("Максимальное значение в данном массиве " + max);
+    public ArrayMinMax() {
+        this.arrayKsu = arrayKsu;
+    }
+
+    public int[] getArrayKsu() {
+        return arrayKsu;
+    }
+
+    public void setArrayKsu(int[] arrayKsu) {
+        this.arrayKsu = arrayKsu;
     }
 }
 
