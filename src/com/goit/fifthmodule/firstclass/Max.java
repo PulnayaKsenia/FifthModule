@@ -1,7 +1,10 @@
 package com.goit.fifthmodule.firstclass;
 
 public class Max {
-
+    /*
+  классы Min и Max должны быть объединены в один класс,
+  который будет служить "контейнером" для хранения данных
+  */
     public static void max(int[] arrayKsu) {
 
         for (int i = 0; i < arrayKsu.length - 1; i++) {
