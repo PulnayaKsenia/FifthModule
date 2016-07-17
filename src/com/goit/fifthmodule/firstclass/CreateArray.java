@@ -3,9 +3,8 @@ package com.goit.fifthmodule.firstclass;
 import java.util.Scanner;
 
 public class CreateArray  {
-
+    //  anti pattern "boat anchor" - данный метод в программе не используется
     public static void create(String[] args) {
-
         Scanner in = new Scanner(System.in);
 
         System.out.println("HELLO! This program searches min and max value in array!");

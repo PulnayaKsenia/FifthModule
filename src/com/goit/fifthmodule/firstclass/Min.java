@@ -1,9 +1,7 @@
 package com.goit.fifthmodule.firstclass;
 
 public class Min {
-
     public static void min(int[] arrayKsu) {
-
         for (int i = 0; i < arrayKsu.length; i++) {
             int min = arrayKsu[i];
             int mini = i;

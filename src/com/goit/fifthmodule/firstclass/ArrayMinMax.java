@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayMinMax {
-
 //  некорректное имя переменной. должно быть лаконичное и по существу
     private int[] arrayKsu;
 
